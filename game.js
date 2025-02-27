@@ -44,7 +44,7 @@ function checkWinner() {
 
     if (humanScore === 5 || computerScore === 5) {
         const resultDiv = document.querySelector("#result");
-        resultDiv.innerHTML += `<br><br>🎉 ${humanScore === 5 ? "¡Felicidades! Ganaste la partida. 🏆" : "Oh no, la computadora ganó. 😿"} 🎉`;
+        resultDiv.innerHTML += `<br><br>🎉 ${humanScore === 5 ? "Congratulations! You won! 🏆" : "Oh no! The computer won! 😿"} 🎉`;
 
         setTimeout(resetGame, 3000); // Espera 3 segundos antes de reiniciar
     }
