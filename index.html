@@ -1,12 +1,25 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, paper, scissors!</title>
+    <title>🐱 Rock, Paper, Scissors! 🐱</title>
     <script src="game.js" defer></script>
+    <link rel="stylesheet" href="game.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>🐱 Rock, Paper, Scissors! 🐱</h1>
+        <p id="instructions">The first player to reach 5 points is the winner!</p>
+        <div class="buttons">
+            <button class="choice" id="rock">✊</button>
+            <button class="choice" id="paper">✋</button>
+            <button class="choice" id="scissors">✌️</button>
+        </div>
+        <div id="score">Score - You: 0 | Computer: 0</div>
+        <div id="result"></div>
+        <div class="cute-icons">
+            <img src="cat2.png" alt="Cute Cat">
+        </div>
+    </div>
 </body>
 </html>
